@@ -45,7 +45,7 @@ cModel <- compileNimble(model)
 
 If the above code runs without error, you're all set. If not, please see the troubleshooting tips.  The most common problems have to do with proper installation of the compiler tools.  On Windows, the `PATH` system variable must be set (see link to Rtools installation details from our download linked above).  On Mac OSX, command line tools must be installed as part of Xcode.  If you still have problems, please email the [nimble-users group](https://r-nimble.org/more/issues-and-groups) for help.
 
-In general, we encourage you to update to the most recent version of NIMBLE (version 1.1.0).
+In general, we encourage you to update to the most recent version of NIMBLE (version 1.2.1).
 
 ## Installing additional packages
 
