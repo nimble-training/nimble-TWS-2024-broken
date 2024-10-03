@@ -14,7 +14,7 @@ All materials for the workshop will be in this GitHub repository. If you're fami
 
 ## Background for the workshop
 
-This workshop will focus on the `nimble` R package, not on statistical methodology per se.  The material assumes attendees have basic knowledge of ecological statistical models such as capture-recapture, occupancy, N-mixture, and hidden Markov models. ou will still be able to follow the workshop without this background, but the workshop is geared towards participants already familiar with these topics.
+This workshop will focus on the `nimble` R package, not on statistical methodology per se.  The material assumes attendees have basic knowledge of ecological statistical models such as capture-recapture, occupancy, N-mixture, and hidden Markov models. (We will not use all of those!) You will still be able to follow the workshop without this background, but the workshop is geared towards participants already familiar with these topics.
 
 ## Help with NIMBLE
 
@@ -52,6 +52,6 @@ In general, we encourage you to update to the most recent version of NIMBLE (ver
 Prior to the workshop, you should also install the following R packages (beyond those automatically installed with `nimble`), which can be installed as follows:
 
 ```
-install.packages(c("nimbleHMC", "mcmcplots", "coda", "nimbleEcology"))
+install.packages(c("nimbleHMC", "mcmcplots", "coda", "nimbleEcology", "compareMCMCs"))
 ```
 
